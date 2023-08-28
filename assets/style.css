@@ -12,9 +12,13 @@
 
 body
 {
-    
-    background-color: rgba(0, 0, 255, 0.336);
 
+    background-color: rgba(0, 0, 255, 0.336);
+}
+
+#max {
+    width: 100vw;
+    height: 100vh;
 }
 
 .head_of_project
@@ -38,18 +42,9 @@ body
     width: 90px;
 }
 
-.pics_of_gallery
+h2 
 {
-    width: 20%;
-
-    text-align: center;
-}
-
-.pics_of_gallery img
-{
-
-    width: 100%;
-
+    font-family: monospace, sans-serif;
 }
 
 .gallery_of_images 
@@ -62,10 +57,22 @@ body
 
     flex-wrap: wrap;
 
+    flex: 1 1 300px;
+
     margin-top: 150px;
+
+    width: 100vw;
 }
 
-#ret
+.pics_of_gallery
 {
-    height: 676px;
+    width: 400px;
+
+}
+
+.pics_of_gallery img
+{
+
+    width: 100%;
+
 }
